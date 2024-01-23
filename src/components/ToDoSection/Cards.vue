@@ -1,7 +1,8 @@
 <template>
-  <div class="grid grid-cols-3">
+  <div class="grid grid-cols-3 bg-[#F7F8FC]">
+
     <div class="grid justify-items-end">
-      <div class="bg-white rounded-lg w-[370px] h-64 p-10 flex flex-col relative overflow-hidden">
+      <div class="bg-white rounded-lg w-[370px] h-64 p-10 flex flex-col relative overflow-hidden border border-[#66666614]">
         <img class="absolute z-10 right-0 top-0" src="@/assets/ToDoSection/orange-line.png" alt="">
         <img class="w-12 h-12 mb-12" src="@/assets/ToDoSection/checking.svg" alt="" />
   
@@ -12,8 +13,8 @@
       </div>
     </div>
 
-    <div class="grid justify-items-center">
-      <div class="bg-white rounded-lg w-[370px] h-64 p-10 flex flex-col relative">
+    <div class="grid justify-items-center ">
+      <div class="bg-white rounded-lg w-[370px] h-64 p-10 flex flex-col relative overflow-hidden border border-[#66666614]">
         <img class="absolute z-10 left-0 top-0" src="@/assets/ToDoSection/blue-line.png" alt="">
         <img class="w-12 h-12 mb-12" src="@/assets/ToDoSection/wallet.svg" alt="" />
   
@@ -25,7 +26,7 @@
     </div>
 
     <div class="grid justify-items-start">
-      <div class="bg-white rounded-lg w-[370px] h-64 p-10 flex flex-col relative">
+      <div class="bg-white rounded-lg w-[370px] h-64 p-10 flex flex-col relative overflow-hidden border border-[#66666614]">
         <img class="absolute z-10 right-0 top-0" src="@/assets/ToDoSection/yellow-line.png" alt="">
         <img class="w-12 h-12 mb-12" src="@/assets/ToDoSection/map-pointer.svg" alt="" />
   
@@ -33,6 +34,10 @@
         <p class="font-Poppins text-base font-normal text-[#667] z-20">Explore uma ampla gama de viagens emocionantes.</p>
       </div>
     </div>
+
+    dawdwadwadawwad <br>
+    dawdawdawdwadawd <br>
+    dawawdawdwadwadwa
   </div>
 </template>
 

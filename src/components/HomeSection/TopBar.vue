@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full">
-    <header class="flex w-full h-28 justify-around">
+  <div class="topbar w-full fixed top-0 z-50 bg-[#f0f0f0] drop-shadow-sm">
+    <header class="flex h-28 mx-28 justify-between">
       <div class="flex gap-3 items-center hover:cursor-pointer">
         <span class="font-Volkhov text-2xl hover:opacity-80" @click="home">Trabook</span>
         <img class="w-5 h-5" src="@/assets/homeSection/logo.svg" alt="logo" />
@@ -19,13 +19,13 @@
 
       <div class="flex items-center gap-2">
         <button
-          class="px-8 py-3 rounded-md text-[#FD8D3A] text-base font-semibold font-Poppins hover:text-[#EA5814] transition-all"
+          class="px-8 py-3 rounded-md text-[#FD8D3A] text-base font-semibold font-Poppins hover:brightness-90 transition-all"
         >
           Login
         </button>
 
         <button
-          class="bg-[#FA7436] px-8 py-3 rounded-md text-white font-Poppins text-base font-semibold hover:bg-[#F16625] transition-all"
+          class="bg-[#FA7436] px-8 py-3 rounded-md text-white font-Poppins text-base font-semibold hover:brightness-95 transition-all"
         >
           Sign up
         </button>
@@ -48,7 +48,7 @@ function home() {
 
 function routes(item) {
   router.push({
-    name: item
+    name: item,
   })
 }
 </script>
