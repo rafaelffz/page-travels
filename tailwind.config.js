@@ -2,12 +2,7 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      transitionTeste: {
-        property: "all",
-        duration: "500ms"
-      }
-    },
+    extend: {},
     fontFamily: {
       Poppins: ["Poppins, sans-serif"],
       Volkhov: ["Volkhov, serif"]
